@@ -2,9 +2,10 @@
   "name": "app",
   "version": "1.0.0",
   "description": "Goal is to develope a a.i. agent",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "node test.js"
+    "start": "node main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/hopefair23/Repo-machine-learning-model/issues"
   },
-  "homepage": "https://github.com/hopefair23/Repo-machine-learning-model#readme"
+  "homepage": "https://github.com/hopefair23/Repo-machine-learning-model#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
 }
